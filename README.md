@@ -2,5 +2,6 @@
 test project for js 
 
 ## ToDo
-* list item1
-* list item2
+* list item 1
+* list item 2
+New item 3
