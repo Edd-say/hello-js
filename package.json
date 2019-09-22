@@ -1,0 +1,30 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "test progekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/static-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edd-say/hello-js.git"
+  },
+  "keywords": [
+    "javascripts"
+  ],
+  "author": "Eduard",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Edd-say/hello-js/issues"
+  },
+  "homepage": "https://github.com/Edd-say/hello-js#readme",
+  "dependencies": {
+    "server": "^1.0.19",
+    "static": "^2.0.0"
+  },
+  "devDependencies": {
+    "static-server": "^2.2.1"
+  }
+}``
