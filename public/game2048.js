@@ -55,6 +55,14 @@ for ( let c=0; c < boardSize-1;c++) {                  // 1) всі клітин
 }
 return a;
 }
+function onkey (e) {
+    switch (e.keyCode) {
+     case 37: mvLeft();break
+     case 38: mvUp ();break
+     case 39: mvRight ();break
+     case 40: mvDown ();break
+    }
+}
 function mvleft(){
     for (let r=0; r< boardSize; r++){
        // let row = board [r];
@@ -68,6 +76,36 @@ function mvleft(){
     for (let r=0; r < boardSize; r++ ) {
         board[r] = mover(board[r].reverse() ).reverse();
     }
- drawboard();
+    drawboard();
+ }
+
+function gameRnd() {
+    let r = Math.random();
+    if (r > 0.9)
+    return 4 ;
+}   
+{
+    return 2;
+    }
+
+
+function getZeros() {
+    let a = [] ;
+    for ( let r=0; r< boardSize; r++) {
+        for ( let c=0; c < boardSize; C++ ){
+            if ( board[ r ][ c ] == 0 ) {
+                a.push( [ r, c ] );
+            }
+        }
+    }
+    return a;
 }
-  
+function newnmb() {
+    let a = getZeros();
+    let n = a.length;
+    let i = Math.floor (n* match.random );
+    if (n >= 0) {
+        board[ [a][i] ] [ a[i][1]  ] = gameRnd();  
+    }
+    return 
+}

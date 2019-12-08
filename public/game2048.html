@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="game2048.css">
 </head>
-<body>
+<body onkeydown="onkey( event )">
+    
     <table id="game2048">
         <tbody>
             <tr>
@@ -36,7 +37,7 @@
             </tr>
         </tbody>
     </table>
-    <button onclick="mvRight()">Right</button>
+    
     <script src="game2048.js"></script>
 </body>
 </html>
