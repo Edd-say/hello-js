@@ -1,0 +1,17 @@
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+    background-repeat:url(images/bg-move-box.jpeg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+}
+td{
+    border: 1px solid white;
+    width: 80px;
+    height:80px;
+    text-align:center;
+}
+td.box.01 {
+    background-image: url(images\box-01.png)
+}
