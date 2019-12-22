@@ -1,7 +1,7 @@
 table{
     border: 1px solid black;
     border-collapse:collapse;
-    background-repeat:url(images/bg-move-box.jpeg);
+    background-repeat:url(/public/images/img.snw.jpg);
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
@@ -12,6 +12,6 @@ td{
     height:80px;
     text-align:center;
 }
-td.box.01 {
-    background-image: url(images\box-01.png)
+td.box-01{
+    background-image: url(public/images/box-01.png)
 }
