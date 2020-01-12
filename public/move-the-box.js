@@ -4,9 +4,9 @@ var board = [
     [0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 0, 0, 0, 0, 0],
-    [0, 0, 1, 0, 1, 1, 0],
+    [0, 0, 0, 0, 3, 0, 0],
+    [0, 0, 0, 2, 0, 4, 0],
+    [0, 0, 1, 1, 1, 1, 0],
 ];
 var elBoard = document.querySelectorAll ('table#game2048 td') ;
 function drawboard(){
@@ -29,5 +29,7 @@ drawboard();
 function move(){
 if (selbox.length>0 && sellbox[1]>0 ){
 let r = selbox[0]
-let c = selbox[1]    }
+let c = selbox[1]   }
+if (board [r][c-1]=board )
+board
 }
