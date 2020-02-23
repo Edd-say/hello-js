@@ -21,6 +21,8 @@ function drawboard(){
         }
     }
 }
+
+
 function boardClick(e){
     console.log(e.target)
 }
@@ -31,5 +33,18 @@ if (selbox.length>0 && sellbox[1]>0 ){
 let r = selbox[0]
 let c = selbox[1]   }
 if (board [r][c-1]=board )
-board
+board[r][c+1]=board[r][c]
+board[r-1][c]=t
 }
+function gravitation() {
+    for ( let c=0;c<bCol;c++ );{
+        for (let r=brow-1;r>0;r--);{ 
+            if (board [r][c]== 0 ){
+                let rB = -1 ;
+                
+                        rB = r1;break;
+                    }
+
+                }
+            } 
+        }   
